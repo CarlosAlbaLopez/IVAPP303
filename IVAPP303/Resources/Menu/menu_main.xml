@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/menu_info"
+        android:title="Add"
+        android:icon="@drawable/information"
+        app:showAsAction="always"/>
+  <item android:id="@+id/menu_settings"
+        android:title="Save"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"/>
+  <item android:id="@+id/menu_panel"
+        android:title="Delete"
+        android:icon="@drawable/speedometer"
+        app:showAsAction="always"/>
+</menu>

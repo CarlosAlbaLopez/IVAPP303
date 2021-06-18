@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1010972272943",
+    "firebase_url": "https://ivapp303.firebaseio.com",
+    "project_id": "ivapp303",
+    "storage_bucket": "ivapp303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010972272943:android:7a912125b54eff5c",
+        "android_client_info": {
+          "package_name": "com.company.IVAPP303"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010972272943-bv2us6sfmb4cc9irettlnt75ctomthka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWbfQqQbMJWbr4Ml4yeO4zmBLIflwHvFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

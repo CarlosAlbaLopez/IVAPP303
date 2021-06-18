@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/popRestauración"
+        android:title="Restauración" />
+  <item android:id="@+id/popParking"
+        android:title="Parking" />
+  <item android:id="@+id/popCarburante"
+        android:title="Carburante" />
+  <item android:id="@+id/popPeaje"
+          android:title="Peaje" />
+  <item android:id="@+id/popCompras"
+        android:title="Compras" />
+  <item android:id="@+id/popTaxi"
+        android:title="Taxi" />
+  <item android:id="@+id/popTransporte"
+        android:title="Transporte" />
+  <item android:id="@+id/popHotel"
+        android:title="Hotel" />
+  <item android:id="@+id/popViaje"
+        android:title="Viaje" />
+  <item android:id="@+id/popOtros"
+      android:title="Otros" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <EditText
+        android:id="@+id/input_title"
+		android:layout_below="@+id/LinearLayout1"
+		android:textAppearance="?android:attr/panelTextAppearance"
+		android:hint="Título"
+		android:textSize="20dp"
+		android:fontFamily="sans-serif-medium"
+		android:layout_width="match_parent"  
+		android:layout_height="wrap_content"/>
+	<EditText  
+		android:id="@+id/input_comments"  
+		android:layout_below="@+id/input_title"
+		android:textSize="20dp"
+		android:fontFamily="sans-serif-medium"
+		android:hint="Comentarios"  
+		android:textAppearance="?android:attr/panelTextAppearance"
+		android:layout_width="match_parent"  
+		android:layout_height="wrap_content"/> 
+	<Button
+		android:id="@+id/btn_save"
+		android:text="Guardar"
+		android:background="@drawable/roundedButton"
+		android:textColor="#ffffff"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+

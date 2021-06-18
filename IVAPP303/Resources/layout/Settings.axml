@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/activity_settings"  
+    android:padding="16dp"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"
+	android:background="@drawable/gradiente">  
+    <ImageView  
+        android:id="@+id/icon"  
+        android:layout_alignParentTop="true"  
+        android:layout_centerHorizontal="true"  
+        android:layout_width="100dp"  
+        android:layout_height="100dp" />  
+    <TextView  
+        android:layout_below="@+id/icon"  
+        android:id="@+id/dashboard_welcome"  
+        android:text="Sesión activa: user"  
+		android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        style="@style/Widget.AppCompat.Button.Borderless"/>  
+    <Button  
+        android:layout_marginTop="20dp"  
+        android:layout_below="@+id/dashboard_btn_change_pass"  
+        android:id="@+id/dashboard_btn_logout"  
+        android:text="Cerrar sesión"  
+        android:backgroundTint="@color/cardview_shadow_start_color"
+		android:textColor="#ffffff"
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content" />  
+</RelativeLayout>  
